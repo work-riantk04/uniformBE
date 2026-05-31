@@ -86,7 +86,7 @@ func checkSession(endpoint echo.HandlerFunc) echo.HandlerFunc {
 						return []byte(signingKey), nil
 					})
 
-					// exp := err.Error()[:16] cobs git dari hp
+					// exp := err.Error()[:16] cobs git dari hp tablet
 					// if exp == "token is expired" {
 					// 	models.Logout(c.Request().Header.Get("User"))
 					// 	endpoint(c)
